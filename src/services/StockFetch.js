@@ -13,21 +13,4 @@ const StockFetch = (str) => {
 
   return num.toFixed(2);
 };
-// const StockFetch = async () => {
-//   const apiKey = "ZL1PIP024P2JHYM1";
-
-//   try {
-//     const response = await axios.get("API_ENDPOINT_URL", {
-//       params: {
-//         apiKey,
-//         limit: 5,
-//       },
-//     });
-//     console.log(response.data);
-//     return response.data;
-//   } catch (error) {
-//     console.error("Error fetching - ", error);
-//   }
-// };
-
 export default StockFetch;
